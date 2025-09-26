@@ -1,0 +1,213 @@
+{
+	"tokenColors": [
+		{
+			"settings": {
+				"background": "#2D2D2D",
+				"foreground": "#CCCCCC"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#999999"
+			}
+		},
+		{
+			"name": "Foreground",
+			"scope": [
+				"keyword.operator.class",
+				"constant.other",
+				"source.php.embedded.line"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#CCCCCC"
+			}
+		},
+		{
+			"name": "Variable, String Link, Tag Name, GitGutter deleted",
+			"scope": [
+				"variable",
+				"support.other.variable",
+				"string.other.link",
+				"entity.name.tag",
+				"entity.other.attribute-name",
+				"meta.tag",
+				"declaration.tag",
+				"markup.deleted.git_gutter"
+			],
+			"settings": {
+				"foreground": "#F2777A"
+			}
+		},
+		{
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"scope": [
+				"constant.numeric",
+				"constant.language",
+				"support.constant",
+				"constant.character",
+				"variable.parameter",
+				"punctuation.section.embedded",
+				"keyword.other.unit"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#F99157"
+			}
+		},
+		{
+			"name": "Class, Support",
+			"scope": [
+				"entity.name.class",
+				"entity.name.type.class",
+				"support.type",
+				"support.class"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#FFCC66"
+			}
+		},
+		{
+			"name": "String, Symbols, Inherited Class, Markup Heading, GitGutter inserted",
+			"scope": [
+				"string",
+				"constant.other.symbol",
+				"entity.other.inherited-class",
+				"entity.name.filename",
+				"markup.heading",
+				"markup.inserted.git_gutter"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#99CC99"
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				"keyword.operator",
+				"constant.other.color"
+			],
+			"settings": {
+				"foreground": "#66CCCC"
+			}
+		},
+		{
+			"name": "Function, Special Method, Block Level, GitGutter changed",
+			"scope": [
+				"entity.name.function",
+				"meta.function-call",
+				"support.function",
+				"keyword.other.special-method",
+				"meta.block-level",
+				"markup.changed.git_gutter"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#6699CC"
+			}
+		},
+		{
+			"name": "Keyword, Storage",
+			"scope": [
+				"keyword",
+				"storage",
+				"storage.type",
+				"entity.name.tag.css"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#CC99CC"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {
+				"background": "#F2777A",
+				"fontStyle": "",
+				"foreground": "#CDCDCD"
+			}
+		},
+		{
+			"name": "Separator",
+			"scope": "meta.separator",
+			"settings": {
+				"background": "#99CCCC",
+				"foreground": "#CDCDCD"
+			}
+		},
+		{
+			"name": "Deprecated",
+			"scope": "invalid.deprecated",
+			"settings": {
+				"background": "#CC99CC",
+				"fontStyle": "",
+				"foreground": "#CDCDCD"
+			}
+		},
+		{
+			"name": "Diff foreground",
+			"scope": [
+				"markup.inserted.diff",
+				"markup.deleted.diff",
+				"meta.diff.header.to-file",
+				"meta.diff.header.from-file"
+			],
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"name": "Diff insertion",
+			"scope": [
+				"markup.inserted.diff",
+				"meta.diff.header.to-file"
+			],
+			"settings": {
+				"foreground": "#718c00"
+			}
+		},
+		{
+			"name": "Diff deletion",
+			"scope": [
+				"markup.deleted.diff",
+				"meta.diff.header.from-file"
+			],
+			"settings": {
+				"foreground": "#c82829"
+			}
+		},
+		{
+			"name": "Diff header",
+			"scope": [
+				"meta.diff.header.from-file",
+				"meta.diff.header.to-file"
+			],
+			"settings": {
+				"foreground": "#FFFFFF",
+				"background": "#4271ae"
+			}
+		},
+		{
+			"name": "Diff range",
+			"scope": "meta.diff.range",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#3e999f"
+			}
+		}
+	],
+	"colors": {
+		"editor.background": "#2D2D2D",
+		"editorCursor.foreground": "#CCCCCC",
+		"editor.foreground": "#CCCCCC",
+		"editorWhitespace.foreground": "#6A6A6A",
+		"editor.lineHighlightBackground": "#393939",
+		"editor.selectionBackground": "#515151"
+	},
+	"name": "Tomorrow Night Eighties (R Classic)"
+}

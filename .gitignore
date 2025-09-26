@@ -1,0 +1,9 @@
+node_modules
+*.vsix
+.env
+.Rproj.user
+.Rhistory
+.RData
+.httr-oauth
+.DS_Store
+.quarto

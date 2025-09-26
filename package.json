@@ -1,0 +1,21 @@
+{
+  "name": "tomorrow-night-eighties-r-classic",
+  "displayName": "tomorrow-night-eighties-r-classic",
+  "description": "A Tomorrow Night Bright theme for Positron IDE and VS Code, inspired by RStudio IDE",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tomorrow Night Eighties (R Classic)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Tomorrow Night Eighties (R Classic)-color-theme.json"
+      }
+    ]
+  }
+}
