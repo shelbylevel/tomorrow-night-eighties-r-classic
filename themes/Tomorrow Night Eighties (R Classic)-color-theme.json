@@ -1,4 +1,7 @@
 {
+	"name": "Tomorrow Night Eighties (R Classic)",
+	"semanticHighlighting": true,
+	"editor.bracketPairColorization.enabled": true,
 	"tokenColors": [
 		{
 			"settings": {
@@ -18,7 +21,10 @@
 			"scope": [
 				"keyword.operator.class",
 				"constant.other",
-				"source.php.embedded.line"
+				"source.php.embedded.line",
+				"string.unquoted.plain.out.yaml",
+				"variable.object",
+				"variable.parameter"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -48,7 +54,6 @@
 				"constant.language",
 				"support.constant",
 				"constant.character",
-				"variable.parameter",
 				"punctuation.section.embedded",
 				"keyword.other.unit"
 			],
@@ -86,10 +91,11 @@
 			}
 		},
 		{
-			"name": "Operator, Misc",
+			"name": "Operator, Misc, YAML Separator",
 			"scope": [
 				"keyword.operator",
-				"constant.other.color"
+				"constant.other.color",
+				"punctuation.separator.map.value.yaml"
 			],
 			"settings": {
 				"foreground": "#66CCCC"
@@ -111,12 +117,28 @@
 			}
 		},
 		{
-			"name": "Keyword, Storage",
+			"name": "YAML Document Markers, Frontmatter Delimiters, Markdown Code Blocks",
+			"scope": [
+				"punctuation.definition.begin.frontmatter",
+				"punctuation.definition.end.frontmatter",
+				"punctuation.definition.markdown",
+                //"markup.fenced_code.block.markdown",
+                "fenced_code.block.language.markdown",
+                "fenced_code.block.language.attributes.markdown"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#6699CC"
+			}
+		},
+		{
+			"name": "Keyword, Storage, Quarto Link Titles",
 			"scope": [
 				"keyword",
 				"storage",
 				"storage.type",
-				"entity.name.tag.css"
+				"entity.name.tag.css",
+				"string.other.link.title.quarto"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -202,12 +224,37 @@
 		}
 	],
 	"colors": {
+		// Rainbow parentheses and brackets
+		"editorBracketHighlight.foreground1": "#ed90a4",
+		"editorBracketHighlight.foreground2": "#d3a263",
+		"editorBracketHighlight.foreground3": "#99b657",
+		"editorBracketHighlight.foreground4": "#33c192",
+		"editorBracketHighlight.foreground5": "#00bdce",
+		"editorBracketHighlight.foreground6": "#94a9ec",
+		"editorBracketHighlight.foreground7": "#dc91db",
+
+		// Colors imported from Tomorrow Night Eighties
 		"editor.background": "#2D2D2D",
 		"editorCursor.foreground": "#CCCCCC",
 		"editor.foreground": "#CCCCCC",
 		"editorWhitespace.foreground": "#6A6A6A",
 		"editor.lineHighlightBackground": "#393939",
-		"editor.selectionBackground": "#515151"
-	},
-	"name": "Tomorrow Night Eighties (R Classic)"
+		"editor.selectionBackground": "#515151",
+
+		// Custom colors
+		"activityBar.activeBorder": "#66CCCC",
+		"activityBarBadge.background": "#6699CC",
+		"statusBar.background": "#252525",
+		"statusBar.foreground": "#CCCCCC",
+		"statusBar.border": "#30363d",
+		"statusBar.focusBorder": "#1f6feb80",
+		"statusBar.noFolderBackground": "#252525",
+		"statusBar.debuggingForeground": "#ffffff",
+		"statusBar.debuggingBackground": "#da3633",
+		"statusBarItem.prominentBackground": "#6e768166",
+		"statusBarItem.remoteForeground": "#2d2d2d",
+		"statusBarItem.remoteBackground": "#CC99CC",
+		"statusBarItem.hoverBackground": "#e6edf314",
+		"statusBarItem.activeBackground": "#e6edf31f",
+	}
 }
