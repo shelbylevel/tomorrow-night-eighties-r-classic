@@ -1,21 +1,43 @@
 {
   "name": "tomorrow-night-eighties-r-classic",
-  "displayName": "tomorrow-night-eighties-r-classic",
-  "description": "A Tomorrow Night Bright theme for Positron IDE and VS Code, inspired by RStudio IDE",
   "version": "0.0.1",
+  "publisher": "shelbylevel",
   "engines": {
     "vscode": "^1.104.0"
   },
+  "license": "MIT",
+  "displayName": "Tomorrow Night Eighties (R Classic)",
+  "description": "A Tomorrow Night Eighties theme for Positron IDE and VS Code, inspired by RStudio IDE",
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "dark",
+    "positron",
+    "python",
+    "r",
+    "tomorrow"
+  ],
+  "galleryBanner": {
+    "color": "#66CCCC",
+    "theme": "dark"
+  },
   "contributes": {
     "themes": [
       {
         "label": "Tomorrow Night Eighties (R Classic)",
         "uiTheme": "vs-dark",
-        "path": "./themes/Tomorrow Night Eighties (R Classic)-color-theme.json"
+        "path": "./themes/tomorrow-night-eighties-r-classic.json"
       }
     ]
+  },
+  "icon": "./assets/logos/logo.png",
+  "homepage": "https://github.com/shelbylevel/tomorrow-night-eighties-r-classic/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/shelbylevel/tomorrow-night-eighties-r-classic/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shelbylevel/tomorrow-night-eighties-r-classic.git"
   }
 }
