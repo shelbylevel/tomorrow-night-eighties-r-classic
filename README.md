@@ -1,16 +1,31 @@
-# tomorrow-night-eighties-r-classic README
+# Tomorrow Night Eighties (R Classic)
 
-## Working with Markdown
+> A Tomorrow Night Eighties theme for Positron IDE and VS Code, Inspired by RStudio IDE
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+### 🎨 Palette
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+**Tomorrow Night Eighties (R Classic)** is a dark, high contrast, MIT-licensed color theme. Tomorrow Night Eighties is one of the variants included in the [Tomorrow](https://github.com/chriskempson/tomorrow-theme) theme originally written by Chris Kempson.
 
-## For more information
+This theme has two major inspirations: the editor is inspired by Posit's implementation of Tomorrow Night Eighties in the RStudio IDE, and the workbench (everything outside the editor pane) is inspired by Microsoft's implementation of Tomorrow Night Eighties.
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+### 🖥️ Installation
 
-**Enjoy!**
+#### Install using Command Palette
+
+1. Go to` View -> Command Palette` or press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>
+2. Then enter `Install Extension`
+3. Write `Tomorrow Night Eighties (R Classic)`
+4. Select or press `Enter` to install
+
+#### Activating theme
+
+Open Positron. Tomorrow Night Eighties (R Classic) will be available from the `File` -> `Preferences` -> `Color Theme` dropdown menu.
+
+### 📜 License
+
+Tomorrow Night Eighties (R Classic) is released under the MIT license, which grants the following permissions:
+
+- Commercial use
+- Distribution
+- Modification
+- Private use
