@@ -2,6 +2,11 @@
 
 > A Tomorrow Night Eighties theme for Positron IDE and VS Code, Inspired by RStudio IDE
 
+<h2 align="center">
+<img src="assets/logos/logo.png" width="200" alt="Logo"/><br/>
+Tomorrow Night Eighties (R Classic)
+</h2>
+
 ### 🎨 Palette
 
 **Tomorrow Night Eighties (R Classic)** is a dark, high contrast, MIT-licensed color theme. Tomorrow Night Eighties is one of the variants included in the [Tomorrow](https://github.com/chriskempson/tomorrow-theme) theme originally written by Chris Kempson.
@@ -29,3 +34,5 @@ Tomorrow Night Eighties (R Classic) is released under the MIT license, which gra
 - Distribution
 - Modification
 - Private use
+
+For more details, see the [LICENSE](https://github.com/shelbylevel/tomorrow-night-eighties-r-classic/blob/main/LICENSE) and [third party notices](https://github.com/shelbylevel/tomorrow-night-eighties-r-classic/blob/main/thirdpartynotices.txt).
