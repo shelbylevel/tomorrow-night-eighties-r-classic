@@ -122,9 +122,9 @@
 				"punctuation.definition.begin.frontmatter",
 				"punctuation.definition.end.frontmatter",
 				"punctuation.definition.markdown",
-                "markup.fenced_code.block.markdown",
-                "fenced_code.block.language.markdown",
-                "fenced_code.block.language.attributes.markdown"
+				"markup.fenced_code.block.markdown",
+				"fenced_code.block.language.markdown",
+				"fenced_code.block.language.attributes.markdown"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -232,7 +232,6 @@
 		"editorBracketHighlight.foreground5": "#00bdce",
 		"editorBracketHighlight.foreground6": "#94a9ec",
 		"editorBracketHighlight.foreground7": "#dc91db",
-
 		// Colors imported from Tomorrow Night Eighties VS Code Theme
 		"editor.background": "#2D2D2D",
 		"editorCursor.foreground": "#CCCCCC",
@@ -240,11 +239,10 @@
 		"editorWhitespace.foreground": "#6A6A6A",
 		"editor.lineHighlightBackground": "#393939",
 		"editor.selectionBackground": "#515151",
-
 		// Custom colors
 		//"activityBar.activeBorder": "#66CCCC",
 		"activityBarBadge.background": "#6699CC",
-		//"statusBar.background": "#252525",
+		"statusBar.background": "#3C3C3C",
 		//"statusBar.foreground": "#CCCCCC",
 		//"statusBar.border": "#30363d",
 		//"statusBar.focusBorder": "#1f6feb80",
